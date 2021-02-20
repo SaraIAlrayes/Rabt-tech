@@ -63,7 +63,7 @@ opps.forEach(function(opp) {
   if (typeof opp.wage != 'undefined') {
     oppScript = oppScript + '<p class="opp-wage">' + opp.wage + ' ريال ' + '</p>'
   }
-  oppScript = oppScript + '<div class="text-center"> <a type="button" class="btn" href="opp.html">التفاصيل</a> </div> </div> </div>'
+  oppScript = oppScript + '<div class="text-center"> <a type="button" class="btn mt-4" href="opp.html">التفاصيل</a> </div> </div> </div>'
 });
 $(".opps-row").html(oppScript);
 
