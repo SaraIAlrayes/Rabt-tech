@@ -74,7 +74,7 @@ $(".opps-row").html(oppScript);
 var indivaScript = "";
 indivs.forEach(function(indiv) {
   indivaScript = indivaScript + '<div class="col-md-4 pb-4"> <div class="indiv-container"> <img src="' + indiv.img + '"> <div class="indiv-details-container"> <h3>' + indiv.name + '</h3>';
-  indivaScript = indivaScript + '<p class="job-title">' + indiv.title + '</p> <p class="rating">' + indiv.rating + '</p> <p class="profile mb-3">' + indiv.profile + '</p>';
+  indivaScript = indivaScript + '<p class="job-title">' + indiv.title + '</p> <p class="rating">' + indiv.rating + '</p> <p class="profile mb-3">' + (indiv.profile).substring(0, 50) + '...'  + '</p>';
   indivaScript = indivaScript + '<div class="text-center mb-3"> <a class="social pr-1 pl-1" href="#"><i class="fab fa-twitter"></i></a>';
   indivaScript = indivaScript + '<a class="social pr-1 pl-1" href="#"><i class="fab fa-facebook-f"></i></a>';
   indivaScript = indivaScript + '<a class="social pr-1 pl-1" href="#"><i class="fab fa-linkedin-in"></i></a> </div>';
