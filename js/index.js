@@ -38,18 +38,21 @@ var indivs = [{
     name: 'خالد أحمد',
     img: 'resources/media/indiv-2.jpg',
     title: 'مصمم جرافيكي',
+    rating: '<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>',
     profile: longString,
   },
   {
     name: 'محمد إبراهيم',
     img: 'resources/media/indiv-1.jpg',
     title: 'محاسب',
+    rating: '<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>',
     profile: longString,
   },
   {
     name: 'مروان محمد',
     img: 'resources/media/indiv-3.jpg',
     title: 'مسؤول جودة',
+    rating: '<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>',
     profile: longString,
   },
 ];
@@ -71,7 +74,7 @@ $(".opps-row").html(oppScript);
 var indivaScript = "";
 indivs.forEach(function(indiv) {
   indivaScript = indivaScript + '<div class="col-md-4 pb-4"> <div class="indiv-container"> <img src="' + indiv.img + '"> <div class="indiv-details-container"> <h3>' + indiv.name + '</h3>';
-  indivaScript = indivaScript + '<p class="job-title">' + indiv.title + '</p> <p class="profile mb-3"' + indiv.profile + '</p>';
+  indivaScript = indivaScript + '<p class="job-title">' + indiv.title + '</p> <p class="rating">' + indiv.rating + '</p> <p class="profile mb-3">' + indiv.profile + '</p>';
   indivaScript = indivaScript + '<div class="text-center mb-3"> <a class="social pr-1 pl-1" href="#"><i class="fab fa-twitter"></i></a>';
   indivaScript = indivaScript + '<a class="social pr-1 pl-1" href="#"><i class="fab fa-facebook-f"></i></a>';
   indivaScript = indivaScript + '<a class="social pr-1 pl-1" href="#"><i class="fab fa-linkedin-in"></i></a> </div>';

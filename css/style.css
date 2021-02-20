@@ -236,6 +236,17 @@ body {
   margin-bottom: 20px;
 }
 
+.indiv-container .rating {
+  direction: ltr; 
+}
+
+.indiv-container .rating i {
+  display: inline-block;
+  color: #ffc62b;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .opp-container .opp-desc, .indiv-container .profile {
   color: #404040;
 }
