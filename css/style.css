@@ -106,6 +106,10 @@ body {
   font-size: 4rem;
 }
 
+.header-details h3 {
+  color: #B80106;
+}
+
 .header-details .btn {
   font-size: 1rem;
   background-color: #e5e5e5;
@@ -237,7 +241,7 @@ body {
 }
 
 .indiv-container .rating {
-  direction: ltr; 
+  direction: ltr;
 }
 
 .indiv-container .rating i {
